@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px red;
+    align-items: center ;
+  }
+  
+  .imgLogo{
+    height: 50px;
+    border: solid 2px blue;
+  
+  }
+  
+  .searchBar {
+    border: solid 2px grey;
+    border-radius: 20px;
+    display: flex;
+    padding: 5px;
+  }
+  
+  input{
+    border:none
+  }
+  
+  
+  .searchBar > img {
+    height: 30px;
+  }
