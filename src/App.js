@@ -4,15 +4,15 @@ import img2 from './assets/img2.webp'
 import searchIcon from './assets/searchicon.png'
 import logo from './assets/logo.png'
 
-const App= () => {
+import Footer from './Components/Footer/Footer'
 
-  const toto = 17
-  console.log(toto)
+const App= () => {
 
   return (
     <div className="App">
+    
      <header>
-        <img class="imgLogo" src={logo}/>
+        <img  class="imgLogo" src={logo}/>
         <div  class="searchBar"> 
             <input/>
             <img src={searchIcon}/>
@@ -36,6 +36,8 @@ const App= () => {
               <div>Texte</div>
           </div>
       </section>
+      <Footer/>
+
     </div>
   );
 }
