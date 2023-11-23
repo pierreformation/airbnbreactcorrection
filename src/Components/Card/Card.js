@@ -2,8 +2,9 @@ const Card = (props) => {
   return (
     <div className="card">
       <i className="fa-light fa fa-heart"></i>
-      <img src={props.image} />
-      <div> {props.text} </div>
+      <img src={props.imgUrl} />
+      <div> Adresse :{props.address} </div>
+      <div> Nom :{props.name} </div>
     </div>
   );
 };
